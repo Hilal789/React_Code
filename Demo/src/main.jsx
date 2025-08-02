@@ -12,6 +12,13 @@ import { ReqXML } from './components/XMLHttpRequest/HttpReq.jsx'
 import { Fetch } from './components/FetchPromise/Fetch.jsx'
 import { AxiosFetch } from './components/AxiosFetch/axios.jsx'
 import { FakeStore } from './components/FakeStore/fakestore.jsx'
+import { Nasa } from './components/NASA_API/nasa.jsx'
+import { Pokemon } from './components/PokemonAPI/pokemon.jsx'
+import { StyleDemo } from './components/CSS-Animation/style-demo.jsx'
+import { EventDemo } from './components/EventDemo-Class/event-demo.jsx'
+import { EventDemo2 } from './components/EventDemo-Class/event-demo2.jsx'
+import { EMICalculator } from './components/StateEvents/emi-calculator.jsx' 
+
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -22,7 +29,13 @@ createRoot(document.getElementById('root')).render(
     {/* <ReqXML/> */}
     {/* <Fetch/> */}
   {/* <AxiosFetch/> */}
-
-  <FakeStore/>
+  {/* <FakeStore/> */}
+  {/* <Nasa/> */}
+  {/* <Pokemon/> */}
+  {/* <StyleDemo/> */}
+  {/* <EventDemo/> */}
+  {/* <EventDemo2/> */}
+  <EMICalculator/>  
   </>
+  
 )
