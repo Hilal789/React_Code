@@ -18,7 +18,8 @@ import { StyleDemo } from './components/CSS-Animation/style-demo.jsx'
 import { EventDemo } from './components/EventDemo-Class/event-demo.jsx'
 import { EventDemo2 } from './components/EventDemo-Class/event-demo2.jsx'
 import { EMICalculator } from './components/StateEvents/emi-calculator.jsx' 
-
+import { DebounceDemo } from './components/useRef/Debounce-demo.jsx'
+import { ThrottleDemo } from './components/useRef/throttle-demo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -35,7 +36,9 @@ createRoot(document.getElementById('root')).render(
   {/* <StyleDemo/> */}
   {/* <EventDemo/> */}
   {/* <EventDemo2/> */}
-  <EMICalculator/>  
+  {/* <EMICalculator/>   */}
+  {/* <DebounceDemo/> */}
+  <ThrottleDemo/>
   </>
   
 )
