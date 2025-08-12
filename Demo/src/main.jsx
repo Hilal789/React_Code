@@ -20,6 +20,12 @@ import { EventDemo2 } from './components/EventDemo-Class/event-demo2.jsx'
 import { EMICalculator } from './components/StateEvents/emi-calculator.jsx' 
 import { DebounceDemo } from './components/useRef/Debounce-demo.jsx'
 import { ThrottleDemo } from './components/useRef/throttle-demo.jsx'
+import { FormDemo } from './components/Form/form-demo.jsx'
+import { FormDemo2 } from './components/Form/form-demoUsingFormik.jsx'
+import { FormDemoUsingYup } from './components/Form/YupValidation-demo.jsx'
+import { FormikDemo } from './components/Form/fromik-demo.jsx'
+import { FormikDemo2 } from './components/Form/fromik-demo-2.jsx'
+import { Weather } from './components/Weather API/weather.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -38,7 +44,14 @@ createRoot(document.getElementById('root')).render(
   {/* <EventDemo2/> */}
   {/* <EMICalculator/>   */}
   {/* <DebounceDemo/> */}
-  <ThrottleDemo/>
+  {/* <ThrottleDemo/> */}
+
+  {/* <FormDemo/> */}
+  {/* <FormDemo2/> */}
+  {/* <FormDemoUsingYup/> */}
+  {/* <FormikDemo/> */}
+  {/* <FormikDemo2/> */}
+  <Weather/>
   </>
   
 )
