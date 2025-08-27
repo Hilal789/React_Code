@@ -26,6 +26,9 @@ import { FormDemoUsingYup } from './components/Form/YupValidation-demo.jsx'
 import { FormikDemo } from './components/Form/fromik-demo.jsx'
 import { FormikDemo2 } from './components/Form/fromik-demo-2.jsx'
 import { Weather } from './components/Weather API/weather.jsx'
+import { UserDashboard } from './components/Storage/user-dashboard.jsx'
+import { Home } from './components/React-Routing/home.jsx'
+import { FakestoreIndex } from './components/FakeStore-R/fakestore-index.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -51,7 +54,18 @@ createRoot(document.getElementById('root')).render(
   {/* <FormDemoUsingYup/> */}
   {/* <FormikDemo/> */}
   {/* <FormikDemo2/> */}
-  <Weather/>
+  {/* <Weather/> */}
+  {/* <UserDashboard/> */}
+
+  {/* <Home/> */}  {/* Uncomment to use Home component */}
+
+  <FakestoreIndex/>
+
+
+
+
+  
+
   </>
   
 )
